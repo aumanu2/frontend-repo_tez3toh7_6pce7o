@@ -1,27 +1,11 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Vibe Coding Platform
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Your AI-powered development environment
-        </p>
-        <div className="text-center">
-          <button
-            onClick={() => setCount(count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
-          >
-            Count is {count}
-          </button>
-        </div>
+    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 to-indigo-50">
+      <div className="text-center p-10 rounded-2xl bg-white/70 backdrop-blur shadow-xl border border-white/60">
+        <h1 className="text-5xl font-extrabold tracking-tight text-gray-900">Hello, World!</h1>
+        <p className="mt-4 text-gray-600 text-lg">Welcome to your first Vite + React app.</p>
       </div>
-    </div>
+    </main>
   )
 }
 
